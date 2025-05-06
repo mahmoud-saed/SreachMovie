@@ -1,82 +1,106 @@
-# SreachMovie 🎬🔍
+# 🎬 SreachMovie
 
-[![Build Status](https://github.com/mahmoud-saed/SreachMovie/actions/workflows/ci.yml/badge.svg)](https://github.com/mahmoud-saed/SreachMovie/actions)  
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_BADGE_ID/deploy-status)](https://app.netlify.com/sites/YOUR_SITE/deploys)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)  
-[![Last Commit](https://img.shields.io/github/last-commit/mahmoud-saed/SreachMovie)](https://github.com/mahmoud-saed/SreachMovie/commits)
-
-> A simple React-based movie search app using the OMDb API.
+A responsive React web application that allows users to search for movies and view detailed information about them.
 
 ---
+## 🧠 Introduction
 
-## 🗂 Table of Contents
-
-1. [Demo](#-demo)  
-2. [Features](#-features)  
-3. [Tech Stack](#-tech-stack)  
-4. [Screenshots](#-screenshots)  
-5. [Getting Started](#-getting-started)  
-    - [Prerequisites](#prerequisites)  
-    - [Installation](#installation)  
-    - [Running Locally](#running-locally)  
-6. [API](#-api)  
-7. [Contributing](#-contributing)  
-8. [License](#-license)  
-9. [Contact](#-contact)
-
----
-
-## 🎥 Demo
-
-![SreachMovie Demo](./docs/images/demo.gif)
-
-Live demo: [https://your-netlify-site.netlify.app](https://your-netlify-site.netlify.app)
+**SreachMovie** is a web application built with React that enables users to search for movies and access detailed information about them. The application provides an intuitive interface and leverages modern web technologies to deliver a seamless user experience.
 
 ---
 
 ## ✨ Features
 
-- 🔍 Search for any movie by title  
-- 📄 Display movie details (poster, year, genre, plot, ratings)  
-- 📱 Responsive design for mobile & desktop  
-- ⚡ Fast, client‑side rendering with React Hooks & Context  
-- ✅ Error handling and “no results” state  
+- **Movie Search**: Search for movies by title.
+- **Detailed Information**: View comprehensive details about selected movies.
+- **Responsive Design**: Optimized for various screen sizes and devices.
+- **Live Demo**: Access the live application [here](https://search-movie-v2.netlify.app/).
 
 ---
 
-## 🛠 Tech Stack
-
-- **React** (Create React App)  
-- **Axios** for HTTP requests  
-- **React Router** for client routing  
-- **CSS Modules** for scoped styling  
-- **Netlify** for deployment  
-
----
-
-## 📸 Screenshots
-
-| Home/Search View | Movie Details View |
-| :--------------: | :----------------: |
-| ![Home](./docs/images/home.png) | ![Details](./docs/images/details.png) |
-
----
-
-## 🚀 Getting Started
+## 🛠️ Installation
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) v14+  
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- **Node.js**: Ensure you have Node.js installed.
+- **npm**: Node package manager.
 
-### Installation
+### Steps
 
-```bash
-# Clone the repo
-git clone https://github.com/mahmoud-saed/SreachMovie.git
-cd SreachMovie
+1. **Clone the Repository**:
 
-# Install dependencies
-npm install
-# or
-yarn install
+   ```bash
+   git clone https://github.com/mahmoud-saed/SreachMovie.git
+   cd SreachMovie
+   ```
+
+
+
+2. **Install Dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+
+
+3. **Start the Application**:
+
+   ```bash
+   npm start
+   ```
+
+
+
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+---
+
+## 🚀 Usage
+
+- **Search for Movies**: Use the search bar to find movies by title.
+- **View Details**: Click on a movie to view detailed information.
+- **Live Demo**: Try the application live [here](https://search-movie-v2.netlify.app/).
+
+---
+
+## 📁 Project Structure
+
+
+
+```plaintext
+SreachMovie/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+
+
+---
+
+## 📦 Dependencies
+
+- **React**: JavaScript library for building user interfaces.
+- **React DOM**: Package for working with the DOM in React applications.
+- **Other Dependencies**: As listed in `package.json`.
+
+---
+
+## ⚙️ Configuration
+
+No additional configuration is required. Ensure that all dependencies are installed, and start the application using `npm start`.
+
+---
+
+## 🐞 Troubleshooting
+
+- **Application Not Starting**: Ensure that all dependencies are installed correctly using `npm install`.
+- **Port Issues**: Verify that port 3000 is not occupied by another application.
+- **API Errors**: Check if the API key is correctly configured and has not exceeded its usage limits.
